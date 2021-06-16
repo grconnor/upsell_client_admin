@@ -1,6 +1,6 @@
 import React from 'react'
 
-const LoginForm = (props) => {
+const LoginForm = (props, login) => {
   return (
     <form onSubmit={props.login}>
       <input placeholder="email" id="email"/>
